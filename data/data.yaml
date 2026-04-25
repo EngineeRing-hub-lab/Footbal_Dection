@@ -1,8 +1,7 @@
-path ..football_data  # Đường dẫn đến thư mục output của bạn
-train trainimages
-val testimages        # Có thể dùng tập test làm tập val luôn
-test testimages
+train: ../football_train
+val: ../football_validation
 
-names
-  0 ball
-  1 player
+nc: 2
+names: 
+  0: ball
+  1: player
